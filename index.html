@@ -1,6 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-MFXFF94FZL"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-71LZTWYCLE');
+</script>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -19,9 +28,11 @@
     <link rel="stylesheet" href="css/nivo-lightbox.css">
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/floating-wpp.css">
 
-	<script src="http://code.jivosite.com/widget/OhbcnxFj4Z" async></script>
 
+<!--	<script src="http://code.jivosite.com/widget/OhbcnxFj4Z" async></script>
+-->
   </head>
 
   <body>
@@ -481,29 +492,6 @@
     <!-- Testimonial Section End -->
 
     <!-- Clients Section -->
-<!--
-    <div id="clients" class="section">
-      <div class="container">
-        <div class="row" id="clients-scroller">
-          <div class="client-item-wrapper">
-            <img src="img/clients/img1.png" alt="">
-          </div>
-          <div class="client-item-wrapper">
-            <img src="img/clients/img2.png" alt="">
-          </div>
-          <div class="client-item-wrapper">
-            <img src="img/clients/img3.png" alt="">
-          </div>
-          <div class="client-item-wrapper">
-            <img src="img/clients/img4.png" alt="">
-          </div>
-          <div class="client-item-wrapper">
-            <img src="img/clients/img5.png" alt="">
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- Client Section End -->
 
     <!-- Subcribe Section Start -->
 <!--
@@ -647,6 +635,52 @@
     <!-- download Section Start -->
 
 
+        <div id="clients" class="section">
+          <div class="container">
+            <div class="section-header">
+              <p class="btn btn-subtitle wow fadeInDown" data-wow-delay="0.2s">Referanslar</p>
+              <!-- <h2 class="section-title">En Uygun Modeli Seçebilirsiniz...</h2>-->
+            </div>
+
+            <div class="row" id="clients-scroller">
+
+              <div class="client-item-wrapper">
+                <a href="http://www.kidsnook.com.tr" target="_blank">
+                  <img src="img/clients/kidsnook.jpg" style="transform: scale(1); height:100px" title="Kidsnook">
+                </a>
+              </div>
+
+              <div class="client-item-wrapper">
+                <a href="http://www.dedehukuk.com.tr" target="_blank">
+                  <img src="img/clients/ddhukuk.jpg" style="transform: scale(1); height:100px " title="Dede Hukuk Bürosu">
+                </a>
+              </div>
+
+              <div class="client-item-wrapper">
+                <a href="http://efebobinaj.com/" target="_blank">
+                  <img src="img/clients/efelogo.png" style="transform: scale(1); height:100px"  title="Efe Bobinaj">
+                </a>
+              </div>
+
+              <div class="client-item-wrapper">
+                <a href="https://jangle.co/" target="_blank">
+                  <img src="img/clients/jangle.svg" style="transform: scale(1); height:60px " title="Jangle" >
+                </a>
+              </div>
+
+              <div class="client-item-wrapper">
+                <img src="img/clients/dd.jpg" style="transform: scale(1); height:100px " title="DD Teknoloji">
+              </div>
+
+
+
+            </div>
+          </div>
+        </div>
+        <!-- Client Section End -->
+
+
+
     <!-- Map Section Start -->
 
     <section id="map-area">
@@ -675,7 +709,14 @@
           <p class="text"><b>Kayseri Şube &#160;&#160;   :</b> İstasyon Cad. No:57 Kocasinan / Kayseri</p>
 
           <p class="text"><b>Email&#160;&#160;   :</b> satis@heskontrolsistemleri.com</p>
-          <p class="text"><b>Kurumsal Whatsapp İletişim Hattı :</b> 0552 780 06 90</p>
+          <p class="text"><b>İletişim :</b>
+          <a class="whatsapp-ft" href="https://web.whatsapp.com/send?phone=9005527800690" rel="nofollow" target="_blank"
+                  style=" margin: 16px auto 0; position: relative; padding-left: 36px; padding-top: 4px; color: #484848;">
+                  <span style="font-weight:normal; font-size: 14px;">WhatsApp Destek</span>
+                  <img src="https://images.hepsiburada.net/assets/sfstatic/Content/images/messaging-whatsapp.svg" width="24" style="max-width: 100%;
+                  display: block; position: absolute; left: 0; top: 0;">
+          </a>
+          </p>
           <ul class="social mt-40">
           </ul>
           <br></br>
@@ -694,7 +735,7 @@
     <!-- Footer Section Start -->
     <footer>
       <!-- Footer Area Start -->
-
+<div id="myButton"></div>
       <section class="footer-Content">
       <!--  <div class="container">
           <div class="row">
@@ -768,11 +809,11 @@
     </footer>
     <!-- Footer Section End -->
 
-    <!-- Go To Top Link -->
+    <!-- Go To Top Link
     <a href="#" class="back-to-top">
       <i class="lni-chevron-up"></i>
     </a>
-
+ -->
     <!-- Preloader -->
     <div id="preloader">
       <div class="loader" id="loader-1"></div>
@@ -796,6 +837,19 @@
     <script src="js/form-validator.min.js"></script>
     <script src="js/contact-form-script.js"></script>
     <script src="js/main.js"></script>
+    <script src="js/floating-wpp.min.js"></script>
+
 
   </body>
+  <script type="text/javascript">
+  $(function () {
+    $('#myButton').floatingWhatsApp({
+      phone: '9005527800690',
+      popupMessage: 'Merhaba, Nasıl Yardımcı Olabilirim ?',
+    showPopup: true,
+    position: 'right',
+    autoOpenTimeout:3000
+    });
+  });
+</script>
 </html>
